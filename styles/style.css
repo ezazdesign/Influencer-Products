@@ -300,7 +300,17 @@ footer {
     color: rgb(238, 0, 99);
 }
 
-/* Responseb Section */
+
+
+
+
+
+/* responsive layout Styles */
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -313,12 +323,20 @@ footer {
 
     }
 
+    nav ul li {
+        margin-right: 12px;
+    }
+
+
     .hero-container {
         max-width: 500px;
         flex-direction: column-reverse;
         gap: 40px;
     }
 
+    .hero-image {
+        width: 257px;
+    }
     .hero-left {
         align-items: center;
         text-align: center;
@@ -349,6 +367,7 @@ footer {
     justify-items: center;
     }
 
+
     .featured-content {
         flex-direction: column-reverse;
         max-width: 526px;
@@ -363,6 +382,12 @@ footer {
     line-height: 36px;
     }
 
+    .featured-text p{
+        font-size: 0.875rem;
+        line-height: 21px;
+    }
+
+ 
     .featured-text {
         text-align: center;
     }
