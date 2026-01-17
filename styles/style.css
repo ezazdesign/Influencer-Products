@@ -31,6 +31,10 @@
     
 }
 
+.common-btn:hover {
+    background-color: rgb(94, 0, 63);
+}
+
 .common-p {
     font-size: 1rem;
     font-weight: 600;
@@ -269,6 +273,34 @@ footer {
 .footer-elemant a{
     text-decoration: none;
 }
+.footer-elemant h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+.footer-elemant p {
+    color: rgba(108, 108, 108, 1);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+
+.ezaz:hover {
+    color: rgb(238, 0, 99);
+}
+
+/* Responseb Section */
 
 
 @media screen and (max-width:576px) {
